@@ -1,0 +1,1 @@
+(this["webpackJsonpkk-react"]=this["webpackJsonpkk-react"]||[]).push([[30],{576:function(e,t,s){"use strict";s.r(t);s(0);var c=s(7);t.default=function(){return Object(c.jsx)(c.Fragment,{children:"This is HomePage."})}}}]);
