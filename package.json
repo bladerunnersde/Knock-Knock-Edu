@@ -1,7 +1,7 @@
 {
   "name": "kk-react",
   "version": "1.0.1",
-  "private": false,
+  "private": true,
   "proxy": "http://localhost:3000",
   "dependencies": {
     "@fullcalendar/bootstrap": "^5.9.0",
