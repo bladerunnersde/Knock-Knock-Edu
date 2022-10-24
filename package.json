@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "private": true,
   "proxy": "http://localhost:3000",
-  "homepage": "http://localhost:3000/register",
+  "homepage": ".",
   "dependencies": {
     "@fullcalendar/bootstrap": "^5.9.0",
     "@fullcalendar/daygrid": "^5.9.0",
