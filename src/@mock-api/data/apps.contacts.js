@@ -6,7 +6,7 @@ const contactsAppData = [
     id: 1,
     name: 'Bosco Lin',
     position: 'Project Manager',
-    email: 'me@blainecottrell.com',
+    email: 'me@gmail.com',
     phone: '+6443884455',
     group: 'Work',
     thumb: '/img/profile/profile-1.webp',
@@ -15,7 +15,7 @@ const contactsAppData = [
     id: 2,
     name: 'Flora Yao',
     position: 'Accounting',
-    email: 'contact@kirbypeters.com',
+    email: 'contact@gmail.com',
     phone: '+643451134',
     group: 'Work',
     thumb: '/img/profile/profile-2.webp',
@@ -31,7 +31,7 @@ const contactsAppData = [
   },
   {
     id: 4,
-    name: 'Joisse Kaycee',
+    name: 'Nemo Huang',
     position: 'UX Designer',
     email: 'joissekaycee@gmail.com',
     phone: '+649023571',
@@ -40,16 +40,16 @@ const contactsAppData = [
   },
   {
     id: 5,
-    name: 'Zayn Hartley',
+    name: 'Charlie Xiao',
     position: 'Frontend Developer',
-    email: 'zaynhartley@zaynhartley.com',
+    email: 'zaynhartley@gmail.com',
     phone: '+642359205',
     group: 'Personal',
     thumb: '/img/profile/profile-5.webp',
   },
   {
     id: 6,
-    name: 'Esperanza Lodge',
+    name: 'Happy Zong',
     position: 'Project Manager',
     email: 'esperanzalodge@msn.com',
     phone: '+649332310',
@@ -58,7 +58,7 @@ const contactsAppData = [
   },
   {
     id: 7,
-    name: 'Charlie Xiao',
+    name: 'Chloe',
     position: 'Executive Team Leader',
     email: 'kathrynmengel@gmail.com',
     phone: '+644924420',
@@ -67,7 +67,7 @@ const contactsAppData = [
   },
   {
     id: 8,
-    name: 'Cherish Kerr',
+    name: 'Leia Zhao',
     position: 'Development Lead',
     email: 'me@cherish.com',
     phone: '+649371222',
@@ -76,7 +76,7 @@ const contactsAppData = [
   },
   {
     id: 9,
-    name: 'Winry Rockbell',
+    name: 'Emily Cai',
     position: 'Mechanics Lead',
     email: 'winry@winryrockbell.com',
     phone: '+643449073',
@@ -85,12 +85,12 @@ const contactsAppData = [
   },
   {
     id: 10,
-    name: 'Elsie Pernilla',
+    name: 'Simon Lin',
     position: '3D Designer',
     email: 'elsie@elsiepernilla.com',
     phone: '+644429098',
     group: 'Personal',
-    thumb: '/img/profile/profile-3.webp',
+    thumb: '/img/profile/profile-10.webp',
   },
   {
     id: 11,
@@ -186,6 +186,7 @@ api.onGet(`${SERVICE_URL}/apps/contacts`).reply((config) => {
 
   return [200, { ...data }];
 });
+
 api.onPost(`${SERVICE_URL}/apps/contacts`).reply((config) => {
   const requestData = JSON.parse(config.data);
   const { item, sortBy, pageSize, pageIndex } = requestData;

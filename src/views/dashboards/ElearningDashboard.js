@@ -1,21 +1,65 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Row, Col, Card, ProgressBar, Button, Badge } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import { Steps } from 'intro.js-react';
 import Rating from 'react-rating';
 import Glide from 'components/carousel/Glide';
 import HtmlHead from 'components/html-head/HtmlHead';
 import BreadcrumbList from 'components/breadcrumb-list/BreadcrumbList';
 import CsLineIcons from 'cs-line-icons/CsLineIcons';
 import YourTimeChart from './components/YourTimeChart';
+import 'intro.js/introjs.css';
 
 const ElearningDashboard = () => {
   const title = 'E-learning Dashboard';
   const description = 'Elearning Portal E-learning Dashboard Page';
 
   const breadcrumbs = [{ to: '', text: 'Home' }];
+
+  const [tourEnabled, setTourEnabled] = useState(false);
+  const tourSteps = [
+    {
+      element: '#introFirst',
+      title: 'Showcase Video',
+      intro: 'Watch the creative videos of our students and quickly understands what we do!',
+    },
+    {
+      element: '#introSecond',
+      title: 'Check Your Jedi Levels',
+      intro: 'Take a look at how much you need to learn to get into the next level!',
+    },
+    {
+      element: '#introThird',
+      title: 'Choose Your Path',
+      intro: 'Understand the details of those levels required and choose your path along the way! ',
+    },
+  ];
+  const tourOptions = {
+    nextLabel: '<span>Next</span><i class="cs-chevron-right"></i>',
+    prevLabel: '<i class="cs-chevron-left"></i><span>Prev</span>',
+    skipLabel: '<i class="cs-close"></i>',
+    doneLabel: '<i class="cs-check"></i><span>Done</span>',
+    overlayOpacity: 0.5,
+    exitOnOverlayClick: true,
+    exitOnEsc: true,
+  };
+
   return (
     <>
       <HtmlHead title={title} description={description} />
+
+      {/* Tour Start */}
+      <Steps
+        enabled={tourEnabled}
+        steps={tourSteps}
+        initialStep={0}
+        options={tourOptions}
+        onExit={() => {
+          setTourEnabled(false);
+        }}
+      />
+      {/* Tour End */}
+
       {/* Title and Top Buttons Start */}
       <div className="page-title-container">
         <Row>
@@ -25,6 +69,18 @@ const ElearningDashboard = () => {
             <BreadcrumbList items={breadcrumbs} />
           </Col>
           {/* Title End */}
+          {/* Top Buttons Start */}
+          <Col md="5" className="d-flex align-items-start justify-content-end">
+            <Button
+              variant="outline-primary"
+              className="btn-icon btn-icon-start btn-icon w-100 w-md-auto ms-1"
+              onClick={() => {
+                setTourEnabled(true);
+              }}
+            >
+              <CsLineIcons icon="flag" /> <span>Take a Tour</span>
+            </Button>
+          </Col>
         </Row>
       </div>
       {/* Title and Top Buttons End */}
@@ -106,7 +162,7 @@ const ElearningDashboard = () => {
         {/* Continue Learning End */}
 
         {/* Recommended Courses Start */}
-        <Col xl="6" className="mb-5">
+        <Col xl="6" className="mb-5" id="introFirst">
           <h2 className="small-title">Recommended for You</h2>
           <Card className="sh-50 sh-md-40 h-xl-100-card hover-img-scale-up">
             <img src="/img/banner/cta-standard-3.webp" className="card-img h-100 scale position-absolute" alt="card image" />
@@ -136,7 +192,7 @@ const ElearningDashboard = () => {
 
       {/* Achievements Start */}
       <h2 className="small-title">Achievements</h2>
-      <Row className="gx-2">
+      <Row className="gx-2" id="introSecond">
         <Col xs="12" className="p-0">
           <Glide
             noControls
@@ -368,17 +424,19 @@ const ElearningDashboard = () => {
         {/* Your Time End */}
 
         {/* Paths Start */}
-        <Col xl="4" className="mb-5">
+        <Col xl="4" className="mb-5" id="introThird">
           <h2 className="small-title">Paths</h2>
           <Card className="sh-40 h-xl-100-card">
             <Card.Body className="d-flex align-items-center justify-content-center h-100">
               <div className="text-center">
                 <img src="/img/illustration/icon-analytics.webp" className="theme-filter mb-3" alt="launch" />
                 <p className="mb-3">You are not on any path!</p>
-                <Button variant="primary" className="btn-icon btn-icon-start mt-3 stretched-link">
-                  <CsLineIcons icon="chevron-right" className="text-primary" />
-                  <span>Take a Path</span>
-                </Button>
+                <NavLink to="/paths">
+                  <Button variant="primary" className="btn-icon btn-icon-start mt-3 stretched-link">
+                    <CsLineIcons icon="chevron-right" className="text-primary" />
+                    <span>Take a Path</span>
+                  </Button>
+                </NavLink>
               </div>
             </Card.Body>
           </Card>

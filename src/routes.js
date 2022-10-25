@@ -9,6 +9,15 @@ const dashboards = {
   school: lazy(() => import('views/dashboards/SchoolDashboard')),
 };
 
+const apps = {
+  index: lazy(() => import('views/apps/Apps')),
+  calendar: lazy(() => import('views/apps/calendar/Calendar')),
+  chat: lazy(() => import('views/apps/chat/Chat')),
+  contacts: lazy(() => import('views/apps/contacts/Contacts')),
+  mailbox: lazy(() => import('views/apps/mailbox/Mailbox')),
+  tasks: lazy(() => import('views/apps/tasks/Tasks')),
+};
+
 const courses = {
   explore: lazy(() => import('views/courses/CoursesExplore')),
   list: lazy(() => import('views/courses/CoursesList')),
@@ -49,6 +58,19 @@ const routesAndMenuItems = {
       subs: [
         { path: '/elearning', label: 'menu.elearning', component: dashboards.elearning },
         { path: '/school', label: 'menu.school', component: dashboards.school },
+      ],
+    },
+    {
+      path: `${appRoot}/apps`,
+      label: 'menu.apps',
+      icon: 'screen',
+      component: apps.index,
+      subs: [
+        { path: '/calendar', label: 'menu.calendar', component: apps.calendar },
+        { path: '/chat', label: 'menu.chat', component: apps.chat },
+        { path: '/contacts', label: 'menu.contacts', component: apps.contacts },
+        { path: '/mailbox', label: 'menu.mailbox', component: apps.mailbox },
+        { path: '/tasks', label: 'menu.tasks', component: apps.tasks },
       ],
     },
     {
