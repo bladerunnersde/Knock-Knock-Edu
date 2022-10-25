@@ -76,7 +76,7 @@ const ForgotPassword = () => {
   return (
     <>
       <HtmlHead title={title} description={description} />
-      <LayoutFullpage left={leftSide} right={rightSide} />
+      <LayoutFullpage right={rightSide} />
     </>
   );
 };

@@ -32,26 +32,25 @@ const Register = () => {
   const formik = useFormik({ initialValues, validationSchema, onSubmit });
   const { handleSubmit, handleChange, values, touched, errors } = formik;
 
-  const leftSide = (
-    <div className="min-h-100 d-flex align-items-center">
-      <div className="w-100 w-lg-75 w-xxl-50">
-        <div>
-          <div className="mb-5">
-            <h1 className="display-3 text-white">Knock Knock Edu</h1>
-            {/* <h1 className="display-3 text-white">English learning that is fun, enlightening and creative </h1> */}
-          </div>
-          <p className="h6 text-white lh-1-5 mb-5">English learning that is fun, enlightening and creative</p>
-          <div className="mb-5">
-            <Button size="lg" variant="outline-white" href="/">
-              Learn More
-            </Button>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-
-  // if  <NavLink to="/dashboards/elearning"> Sign up </NavLink>, all other validation mathods invalid
+  // For gif display reasons, I decided not to show the leftSide.
+  // const leftSide = (
+  //   <div className="min-h-100 d-flex align-items-center">
+  //     <div className="w-100 w-lg-75 w-xxl-50">
+  //       <div>
+  //         <div className="mb-5">
+  //           <h1 className="display-3 text-white">Knock Knock Edu</h1>
+  //           {/* <h1 className="display-3 text-white">English learning that is fun, enlightening and creative </h1> */}
+  //         </div>
+  //         <p className="h6 text-white lh-1-5 mb-5">English learning that is fun, enlightening and creative</p>
+  //         <div className="mb-5">
+  //           <Button size="lg" variant="outline-white" href="/">
+  //             Learn More
+  //           </Button>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   </div>
+  // );
 
   const rightSide = (
     <div className="sw-lg-70 min-h-100 bg-foreground d-flex justify-content-center align-items-center shadow-deep py-5 full-page-content-right-border">
@@ -62,11 +61,11 @@ const Register = () => {
           </NavLink>
         </div>
         <div className="mb-5">
-          <h2 className="cta-1 mb-0 text-primary">Wubba Lubba Dub Dub!</h2>
-          <h2 className="cta-1 text-primary">Boom! Big reveal!</h2>
+          {/* <h2 className="cta-1 mb-0 text-primary">Wubba Lubba Dub Dub!</h2> */}
+          <h2 className="cta-1 text-primary">English learning that is fun, enlightening and creative</h2>
         </div>
         <div className="mb-5">
-          <p className="h6">Please register.</p>
+          {/* <p className="h6">Please register.</p> */}
           <p className="h6">
             If you are one of us, just <NavLink to="/login">login</NavLink>.
           </p>
@@ -113,7 +112,8 @@ const Register = () => {
     <>
       {/* <Navigate to="/dashboard/elearning" /> */}
       <HtmlHead title={title} description={description} />
-      <LayoutFullpage left={leftSide} right={rightSide} />
+      <LayoutFullpage right={rightSide} />
+      {/* <LayoutFullpage left={leftSide} right={rightSide} /> */}
     </>
   );
 };

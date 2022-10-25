@@ -56,7 +56,7 @@ const Login = () => {
         </div>
         <div className="mb-5">
           <h2 className="cta-1 mb-0 text-primary">Welcome,</h2>
-          <h2 className="cta-1 text-primary">let's get started!</h2>
+          <h2 className="cta-1 text-primary">Wubba Lubba Dub Dub!</h2>
         </div>
         <div className="mb-5">
           <p className="h6">Please use your credentials to login.</p>
@@ -91,7 +91,7 @@ const Login = () => {
   return (
     <>
       <HtmlHead title={title} description={description} />
-      <LayoutFullpage left={leftSide} right={rightSide} />
+      <LayoutFullpage right={rightSide} />
     </>
   );
 };
