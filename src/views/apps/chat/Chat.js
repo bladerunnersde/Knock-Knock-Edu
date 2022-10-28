@@ -20,6 +20,8 @@ const ChatApp = () => {
   const dispatch = useDispatch();
 
   // the useSelector hook lets our component extract whatever pieces of data it needs from the Redux store state.
+  // Selectors are functions that know how to extract specific pieces of information from a store state value.
+  // As an application grows bigger, this can help avoid repeating logic as different parts of the app need to read the same data:
 
   // Our components can't talk to the Redux store directly, because we're not allowed to import it into component files.
   // But, useSelector takes care of talking to the Redux store behind the scenes for us.
@@ -28,6 +30,7 @@ const ChatApp = () => {
   // Any time an action has been dispatched and the Redux store has been updated,
   // useSelector will re-run our selector function. If the selector returns a different value than last time,
   // useSelector will make sure our component re-renders with the new value.
+
   const { items, loading, currentMode, selectedTab, selectedChat } = useSelector((state) => state.chat);
   const { themeValues } = useSelector((state) => state.settings);
 

@@ -36,6 +36,9 @@ const initialState = {
 // So, the "chat" name + the "receiveService" and the rest reducer functions generated an action type of {type: "counter/increment"}.
 // (After all, why write this by hand if the computer can do it for us!)
 
+// You can think of a reducer as an event listener which handles events based on the received action (event) type.
+// "Reducer" functions get their name because they're similar to the kind of callback function you pass to the Array.reduce() method.
+
 const chatSlice = createSlice({
   name: 'chat',
   initialState,
@@ -68,6 +71,10 @@ const chatSlice = createSlice({
 const { setLoading, receiveService } = chatSlice.actions;
 
 export const { chatChangeMode, chatSetSelectedChat, chatSetSelectedTab, chatSetCurrentCall } = chatSlice.actions;
+
+// You can think of dispatching actions as "triggering an event" in the application.
+// Something happened, and we want the store to know about it.
+// Reducers act like event listeners, and when they hear an action they are interested in, they update the state in response.
 
 export const getItems = () => async (dispatch, getState) => {
   const state = getState();

@@ -47,6 +47,19 @@ const persistedReducer = persistReducer(
     tasks: tasksReducer,
   })
 );
+
+const store = configureStore({
+  reducer: persistedReducer,
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: {
+        ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+      },
+    }),
+});
+const persistedStore = persistStore(store);
+export { store, persistedStore };
+
 // why Redux Toolkit? https://redux.js.org/introduction/why-rtk-is-redux-today
 
 // We specifically created Redux Toolkit to
@@ -61,14 +74,13 @@ const persistedReducer = persistReducer(
 
 // switching out createStore for configureStore as the dev-mode middleware will also help you catch accidental mutation and serializability errors in existing code bases.
 
-const store = configureStore({
-  reducer: persistedReducer,
-  middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware({
-      serializableCheck: {
-        ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
-      },
-    }),
-});
-const persistedStore = persistStore(store);
-export { store, persistedStore };
+// The current Redux application state lives in an object called the store .
+
+// The Redux store has a method called dispatch.
+// The only way to update the state is to call store.dispatch() and pass in an action object.
+// The store will run its reducer function and save the new state value inside, and we can call getState() to retrieve the updated value:
+
+// store.dispatch({ type: 'counter/increment' })
+
+// console.log(store.getState())
+// // {value: 1}
