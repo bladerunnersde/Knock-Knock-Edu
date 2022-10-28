@@ -15,7 +15,7 @@ import { getItems, chatSetSelectedTab, selectChat } from './chatSlice';
 
 const ChatApp = () => {
   const title = 'Chat';
-  const description = 'A basic chat app for internal use';
+  const description = 'A beta-version chat app';
   useCustomLayout({ fullpage: true });
   const dispatch = useDispatch();
 

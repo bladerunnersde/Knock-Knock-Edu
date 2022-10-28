@@ -47,6 +47,20 @@ const persistedReducer = persistReducer(
     tasks: tasksReducer,
   })
 );
+// why Redux Toolkit? https://redux.js.org/introduction/why-rtk-is-redux-today
+
+// We specifically created Redux Toolkit to
+// eliminate the "boilerplate" from hand-written Redux logic, prevent common mistakes,
+// and provide APIs that simplify standard Redux tasks.
+
+// configureStore: A friendly abstraction over the standard Redux createStore function
+// that adds good defaults to the store setup for a better development experience.
+
+// createStore is deprecated, use Redux Toolkit instead because it will make your life much easier :)
+// a Redux maintainer said in stackoverflow: https://stackoverflow.com/questions/71944111/redux-createstore-is-deprecated-cannot-get-state-from-getstate-in-redux-ac
+
+// switching out createStore for configureStore as the dev-mode middleware will also help you catch accidental mutation and serializability errors in existing code bases.
+
 const store = configureStore({
   reducer: persistedReducer,
   middleware: (getDefaultMiddleware) =>

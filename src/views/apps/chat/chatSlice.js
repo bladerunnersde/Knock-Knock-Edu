@@ -10,6 +10,16 @@ const initialState = {
   selectedTab: 'messages',
   currentCall: null,
 };
+// docs for understanding the redux part: https://redux.js.org/tutorials/fundamentals/part-1-overview
+
+// we define a reducer function.
+// The reducer receives two arguments, the current state and an action object describing what happened.
+
+// Action objects always have a type field, which is a string you provide that acts as a unique name for the action.
+// The type should be a readable name so that anyone who looks at this code understands what it means.
+// Here we use name, you can use type instead.
+
+// Note that we update the state immutably by copying the existing state and updating the copy, instead of modifying the original object directly.
 
 const chatSlice = createSlice({
   name: 'chat',
