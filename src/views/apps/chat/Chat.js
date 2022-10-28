@@ -19,6 +19,15 @@ const ChatApp = () => {
   useCustomLayout({ fullpage: true });
   const dispatch = useDispatch();
 
+  // the useSelector hook lets our component extract whatever pieces of data it needs from the Redux store state.
+
+  // Our components can't talk to the Redux store directly, because we're not allowed to import it into component files.
+  // But, useSelector takes care of talking to the Redux store behind the scenes for us.
+  // If we pass in a selector function, it calls someSelector(store.getState()) for us, and returns the result.
+
+  // Any time an action has been dispatched and the Redux store has been updated,
+  // useSelector will re-run our selector function. If the selector returns a different value than last time,
+  // useSelector will make sure our component re-renders with the new value.
   const { items, loading, currentMode, selectedTab, selectedChat } = useSelector((state) => state.chat);
   const { themeValues } = useSelector((state) => state.settings);
 

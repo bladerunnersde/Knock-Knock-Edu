@@ -2,6 +2,10 @@ import { createSlice } from '@reduxjs/toolkit';
 import { SERVICE_URL } from 'config.js';
 import axios from 'axios';
 
+// A "slice" is a collection of Redux reducer logic and actions for a single feature in your app,
+// typically defined together in a single file.
+// The name comes from splitting up the root Redux state object into multiple "slices" of state.
+
 const initialState = {
   items: [],
   loading: false,
@@ -10,7 +14,12 @@ const initialState = {
   selectedTab: 'messages',
   currentCall: null,
 };
-// docs for understanding the redux part: https://redux.js.org/tutorials/fundamentals/part-1-overview
+// docs for understanding the Redux part: https://redux.js.org/tutorials/fundamentals/part-1-overview
+// docs for understanding the Redux App Structure: https://redux.js.org/tutorials/essentials/part-2-app-structure
+
+// Redux Toolkit has a function called createSlice,
+// which takes care of the work of generating action type strings,
+// action creator functions, and action objects.
 
 // we define a reducer function.
 // The reducer receives two arguments, the current state and an action object describing what happened.
@@ -19,7 +28,13 @@ const initialState = {
 // The type should be a readable name so that anyone who looks at this code understands what it means.
 // Here we use name, you can use type instead.
 
-// Note that we update the state immutably by copying the existing state and updating the copy, instead of modifying the original object directly.
+// Note that we update the state immutably by copying the existing state and updating the copy,
+// instead of modifying the original object directly.
+
+// The string from the name option is used as the first part of each action type,
+// and the key name of each reducer function is used as the second part.
+// So, the "chat" name + the "receiveService" and the rest reducer functions generated an action type of {type: "counter/increment"}.
+// (After all, why write this by hand if the computer can do it for us!)
 
 const chatSlice = createSlice({
   name: 'chat',
