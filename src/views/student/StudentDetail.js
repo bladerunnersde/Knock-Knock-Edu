@@ -152,7 +152,7 @@ const InstructorDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Cooking Tips the Perfect Burger
+                            Study Tips the Perfect Jedi Master
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">
@@ -184,7 +184,7 @@ const InstructorDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Fruit Decorations
+                            Refine Skills
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">
@@ -216,7 +216,7 @@ const InstructorDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Recipes for Sweet and Healty Treats
+                            Recipes for Achievement
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">
@@ -248,7 +248,7 @@ const InstructorDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Carrot Cake Gingerbread
+                            Add More Skills
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">
@@ -280,7 +280,7 @@ const InstructorDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Apple Cake Recipe for Starters
+                            Academic Program for Starters
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">
@@ -312,7 +312,7 @@ const InstructorDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Advanced Sandwich Making Techniques
+                            Advanced Techniques
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">

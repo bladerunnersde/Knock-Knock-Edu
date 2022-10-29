@@ -41,7 +41,7 @@ const CoursesExplore = () => {
             <Card.Body>
               <h5 className="heading mb-0">
                 <NavLink to="/courses/detail" className="body-link stretched-link">
-                  Fruit Decorations
+                  Refine Skills
                 </NavLink>
               </h5>
             </Card.Body>
@@ -70,7 +70,7 @@ const CoursesExplore = () => {
             <Card.Body>
               <h5 className="heading mb-0">
                 <NavLink to="/courses/detail" className="body-link stretched-link">
-                  Recipes for Sweet and Healty Treats
+                  Recipes for Achievement
                 </NavLink>
               </h5>
             </Card.Body>
@@ -99,7 +99,7 @@ const CoursesExplore = () => {
             <Card.Body>
               <h5 className="heading mb-0">
                 <NavLink to="/courses/detail" className="body-link stretched-link">
-                  Better Ways to Mix Dough for the Molds
+                  Better Ways to Mix Creative Illustration
                 </NavLink>
               </h5>
             </Card.Body>
@@ -128,7 +128,7 @@ const CoursesExplore = () => {
             <Card.Body>
               <h5 className="heading mb-0">
                 <NavLink to="/courses/detail" className="body-link stretched-link">
-                  Carrot Cake Gingerbread
+                  Add More Skills
                 </NavLink>
               </h5>
             </Card.Body>
@@ -226,7 +226,7 @@ const CoursesExplore = () => {
             <Card.Body>
               <h5 className="heading mb-0">
                 <NavLink to="/courses/detail" className="body-link stretched-link">
-                  Apple Cake Recipe for Starters
+                  Academic Program for Starters
                 </NavLink>
               </h5>
             </Card.Body>
@@ -255,7 +255,7 @@ const CoursesExplore = () => {
             <Card.Body>
               <h5 className="heading mb-0">
                 <NavLink to="/courses/detail" className="body-link stretched-link">
-                  Advanced Sandwich Making Techniques
+                  Advanced Techniques
                 </NavLink>
               </h5>
             </Card.Body>

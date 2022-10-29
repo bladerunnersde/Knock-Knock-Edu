@@ -13,11 +13,11 @@ const FilterMenuContent = () => {
     <div className="nav flex-column sw-30 pe-7">
       <Form className="mb-5">
         <p className="text-small text-muted mb-3">CATEGORY</p>
-        <Form.Check type="checkbox" label="Bread" id="categoryCheckbox1" />
-        <Form.Check type="checkbox" label="Cake" id="categoryCheckbox2" />
-        <Form.Check type="checkbox" label="Fruit" id="categoryCheckbox3" />
-        <Form.Check type="checkbox" label="Vegetable" id="categoryCheckbox4" />
-        <Form.Check type="checkbox" label="Sandwich" id="categoryCheckbox5" />
+        <Form.Check type="checkbox" label="Movie Dubbing" id="categoryCheckbox1" />
+        <Form.Check type="checkbox" label="Creative Illustration" id="categoryCheckbox2" />
+        <Form.Check type="checkbox" label="Academic Program" id="categoryCheckbox3" />
+        <Form.Check type="checkbox" label="Role Play" id="categoryCheckbox4" />
+        {/* <Form.Check type="checkbox" label="Sandwich" id="categoryCheckbox5" /> */}
       </Form>
       <Form className="mb-5">
         <p className="text-small text-muted mb-3">DURATION</p>
@@ -106,7 +106,7 @@ const ElearningDashboard = () => {
   const description = 'Elearning Portal Course List Page';
 
   const breadcrumbs = [
-    { to: '', text: 'Home' },
+    { to: 'dashboards/elearning', text: 'Home' },
     { to: 'courses/explore', text: 'Courses' },
   ];
 
@@ -181,7 +181,7 @@ const ElearningDashboard = () => {
                 <Card.Body>
                   <h5 className="heading mb-0">
                     <NavLink to="/courses/detail" className="body-link stretched-link">
-                      Introduction to Bread Making
+                      Agatha from WandaVision
                     </NavLink>
                   </h5>
                 </Card.Body>
@@ -210,7 +210,7 @@ const ElearningDashboard = () => {
                 <Card.Body>
                   <h5 className="heading mb-0">
                     <NavLink to="/courses/detail" className="body-link stretched-link">
-                      Better Ways to Mix Dough for the Molds
+                      Alexandar Hamilton
                     </NavLink>
                   </h5>
                 </Card.Body>
@@ -239,7 +239,7 @@ const ElearningDashboard = () => {
                 <Card.Body>
                   <h5 className="heading mb-0">
                     <NavLink to="/courses/detail" className="body-link stretched-link">
-                      Apple Cake Recipe
+                      We Bare Bears
                     </NavLink>
                   </h5>
                 </Card.Body>
@@ -268,7 +268,7 @@ const ElearningDashboard = () => {
                 <Card.Body>
                   <h5 className="heading mb-0">
                     <NavLink to="/courses/detail" className="body-link stretched-link">
-                      Cooking Tips the Perfect Burger
+                      The Boys
                     </NavLink>
                   </h5>
                 </Card.Body>
@@ -297,7 +297,7 @@ const ElearningDashboard = () => {
                 <Card.Body>
                   <h5 className="heading mb-0">
                     <NavLink to="/courses/detail" className="body-link stretched-link">
-                      Fruit Decorations
+                      The Shining
                     </NavLink>
                   </h5>
                 </Card.Body>
@@ -326,7 +326,7 @@ const ElearningDashboard = () => {
                 <Card.Body>
                   <h5 className="heading mb-0">
                     <NavLink to="/courses/detail" className="body-link stretched-link">
-                      Recipes for Sweet and Healty Treats
+                      Alien
                     </NavLink>
                   </h5>
                 </Card.Body>
@@ -355,7 +355,7 @@ const ElearningDashboard = () => {
                 <Card.Body>
                   <h5 className="heading mb-0">
                     <NavLink to="/courses/detail" className="body-link stretched-link">
-                      Better Ways to Mix Dough for the Molds
+                      Doctor Sleep
                     </NavLink>
                   </h5>
                 </Card.Body>
@@ -384,7 +384,7 @@ const ElearningDashboard = () => {
                 <Card.Body>
                   <h5 className="heading mb-0">
                     <NavLink to="/courses/detail" className="body-link stretched-link">
-                      Carrot Cake Gingerbread
+                      The Detention
                     </NavLink>
                   </h5>
                 </Card.Body>
@@ -413,7 +413,7 @@ const ElearningDashboard = () => {
                 <Card.Body>
                   <h5 className="heading mb-0">
                     <NavLink to="/courses/detail" className="body-link stretched-link">
-                      Facts About Sugar Products
+                      Zootopia
                     </NavLink>
                   </h5>
                 </Card.Body>
@@ -442,7 +442,7 @@ const ElearningDashboard = () => {
                 <Card.Body>
                   <h5 className="heading mb-0">
                     <NavLink to="/courses/detail" className="body-link stretched-link">
-                      Introduction to Baking Cakes
+                      We didn't Start the Fire
                     </NavLink>
                   </h5>
                 </Card.Body>
@@ -471,7 +471,7 @@ const ElearningDashboard = () => {
                 <Card.Body>
                   <h5 className="heading mb-0">
                     <NavLink to="/courses/detail" className="body-link stretched-link">
-                      Apple Cake Recipe for Starters
+                      Coco
                     </NavLink>
                   </h5>
                 </Card.Body>
@@ -500,7 +500,7 @@ const ElearningDashboard = () => {
                 <Card.Body>
                   <h5 className="heading mb-0">
                     <NavLink to="/courses/detail" className="body-link stretched-link">
-                      Advanced Sandwich Making Techniques
+                      The Invincible
                     </NavLink>
                   </h5>
                 </Card.Body>

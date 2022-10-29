@@ -365,7 +365,7 @@ const SchoolDashboard = () => {
                   <Col>
                     <div className="d-flex flex-column pt-0 pb-0 ps-3 pe-4 h-100 justify-content-center">
                       <div className="d-flex flex-column">
-                        <div className="text-alternate mt-n1 lh-1-25">Jujubes brownie marshmallow apple.</div>
+                        <div className="text-alternate mt-n1 lh-1-25">You still have one more movie to go</div>
                       </div>
                     </div>
                   </Col>
@@ -386,7 +386,7 @@ const SchoolDashboard = () => {
                   <Col>
                     <div className="d-flex flex-column pt-0 pb-0 ps-3 pe-4 h-100 justify-content-center">
                       <div className="d-flex flex-column">
-                        <div className="text-alternate mt-n1 lh-1-25">Pie fruitcake jelly beans.</div>
+                        <div className="text-alternate mt-n1 lh-1-25">Agatha is on the way</div>
                       </div>
                     </div>
                   </Col>
@@ -407,7 +407,7 @@ const SchoolDashboard = () => {
                   <Col>
                     <div className="d-flex flex-column pt-0 pb-0 ps-3 pe-4 h-100 justify-content-center">
                       <div className="d-flex flex-column">
-                        <div className="text-alternate mt-n1 lh-1-25">Candy tootsie roll pie.</div>
+                        <div className="text-alternate mt-n1 lh-1-25">Don't forget the Coco</div>
                       </div>
                     </div>
                   </Col>
@@ -428,7 +428,7 @@ const SchoolDashboard = () => {
                   <Col>
                     <div className="d-flex flex-column pt-0 pb-0 ps-3 pe-4 h-100 justify-content-center">
                       <div className="d-flex flex-column">
-                        <div className="text-alternate mt-n1 lh-1-25">Liquorice chocolate bar toffee.</div>
+                        <div className="text-alternate mt-n1 lh-1-25">We have a new member</div>
                       </div>
                     </div>
                   </Col>
@@ -449,7 +449,7 @@ const SchoolDashboard = () => {
                   <Col>
                     <div className="d-flex flex-column pt-0 pb-0 ps-3 pe-4 h-100 justify-content-center">
                       <div className="d-flex flex-column">
-                        <div className="text-alternate mt-n1 lh-1-25">Tiramisu lemon drops tootsie.</div>
+                        <div className="text-alternate mt-n1 lh-1-25">Bosco wants to return next summer</div>
                       </div>
                     </div>
                   </Col>
@@ -470,7 +470,7 @@ const SchoolDashboard = () => {
                   <Col>
                     <div className="d-flex flex-column pt-0 pb-0 ps-3 pe-4 h-100 justify-content-center">
                       <div className="d-flex flex-column">
-                        <div className="text-alternate mt-n1 lh-1-25">Chocolate bar chocolate bar tart.</div>
+                        <div className="text-alternate mt-n1 lh-1-25">Congrats Nemo on landing an offer from International High School</div>
                       </div>
                     </div>
                   </Col>
@@ -491,97 +491,13 @@ const SchoolDashboard = () => {
                   <Col>
                     <div className="d-flex flex-column pt-0 pb-0 ps-3 pe-4 h-100 justify-content-center">
                       <div className="d-flex flex-column">
-                        <div className="text-alternate mt-n1 lh-1-25">Bear claw cotton candy powder pastry.</div>
+                        <div className="text-alternate mt-n1 lh-1-25">Rain Alert</div>
                       </div>
                     </div>
                   </Col>
                   <Col xs="auto">
                     <div className="d-inline-block d-flex justify-content-end align-items-center h-100">
                       <div className="text-muted ms-2 mt-n1 lh-1-25">14 Dec</div>
-                    </div>
-                  </Col>
-                </Row>
-                <Row className="g-0 mb-2">
-                  <Col xs="auto">
-                    <div className="sw-3 d-inline-block d-flex justify-content-start align-items-center h-100">
-                      <div className="sh-3">
-                        <CsLineIcons icon="hexagon" className="text-quaternary align-top" />
-                      </div>
-                    </div>
-                  </Col>
-                  <Col>
-                    <div className="d-flex flex-column pt-0 pb-0 ps-3 pe-4 h-100 justify-content-center">
-                      <div className="d-flex flex-column">
-                        <div className="text-alternate mt-n1 lh-1-25">Chocolate bar chocolate bar tart.</div>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col xs="auto">
-                    <div className="d-inline-block d-flex justify-content-end align-items-center h-100">
-                      <div className="text-muted ms-2 mt-n1 lh-1-25">13 Dec</div>
-                    </div>
-                  </Col>
-                </Row>
-                <Row className="g-0 mb-2">
-                  <Col xs="auto">
-                    <div className="sw-3 d-inline-block d-flex justify-content-start align-items-center h-100">
-                      <div className="sh-3">
-                        <CsLineIcons icon="hexagon" className="text-quaternary align-top" />
-                      </div>
-                    </div>
-                  </Col>
-                  <Col>
-                    <div className="d-flex flex-column pt-0 pb-0 ps-3 pe-4 h-100 justify-content-center">
-                      <div className="d-flex flex-column">
-                        <div className="text-alternate mt-n1 lh-1-25">Gummi bears dessert muffin.</div>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col xs="auto">
-                    <div className="d-inline-block d-flex justify-content-end align-items-center h-100">
-                      <div className="text-muted ms-2 mt-n1 lh-1-25">13 Dec</div>
-                    </div>
-                  </Col>
-                </Row>
-                <Row className="g-0 mb-2">
-                  <Col xs="auto">
-                    <div className="sw-3 d-inline-block d-flex justify-content-start align-items-center h-100">
-                      <div className="sh-3">
-                        <CsLineIcons icon="hexagon" className="text-quaternary align-top" />
-                      </div>
-                    </div>
-                  </Col>
-                  <Col>
-                    <div className="d-flex flex-column pt-0 pb-0 ps-3 pe-4 h-100 justify-content-center">
-                      <div className="d-flex flex-column">
-                        <div className="text-alternate mt-n1 lh-1-25">Apple pie candy sugar plum.</div>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col xs="auto">
-                    <div className="d-inline-block d-flex justify-content-end align-items-center h-100">
-                      <div className="text-muted ms-2 mt-n1 lh-1-25">13 Dec</div>
-                    </div>
-                  </Col>
-                </Row>
-                <Row className="g-0 mb-2">
-                  <Col xs="auto">
-                    <div className="sw-3 d-inline-block d-flex justify-content-start align-items-center h-100">
-                      <div className="sh-3">
-                        <CsLineIcons icon="hexagon" className="text-quaternary align-top" />
-                      </div>
-                    </div>
-                  </Col>
-                  <Col>
-                    <div className="d-flex flex-column pt-0 pb-0 ps-3 pe-4 h-100 justify-content-center">
-                      <div className="d-flex flex-column">
-                        <div className="text-alternate mt-n1 lh-1-25">Candy canes lemon drops.</div>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col xs="auto">
-                    <div className="d-inline-block d-flex justify-content-end align-items-center h-100">
-                      <div className="text-muted ms-2 mt-n1 lh-1-25">13 Dec</div>
                     </div>
                   </Col>
                 </Row>
@@ -594,17 +510,17 @@ const SchoolDashboard = () => {
         {/* Today’s Lunch Start */}
         <Col xl="6" xxl="4" className="mb-5">
           <div className="d-flex justify-content-between">
-            <h2 className="small-title">Today’s Lunch</h2>
+            <h2 className="small-title">Today’s Class</h2>
             <NavLink to="#" className="btn btn-icon btn-icon-end btn-xs btn-background-alternate p-0 text-small">
-              <span className="align-bottom">Weekly Menu</span> <CsLineIcons icon="chevron-right" className="align-middle" size="12" />
+              <span className="align-bottom">Weekly List</span> <CsLineIcons icon="chevron-right" className="align-middle" size="12" />
             </NavLink>
           </div>
           <Card className="w-100 sh-50 sh-md-40 h-xxl-100-card position-relative">
             <img src="/img/banner/lunch.webp" className="card-img h-100 position-absolute" alt="card image" />
             <div className="card-img-overlay d-flex flex-column justify-content-end bg-transparent">
               <div>
-                <div className="cta-4 mb-2 text-black">Salmon Sweet Potato Cakes</div>
-                <div className="text-black mb-0">Liquorice caramels chupa chups chocolate bonbon.</div>
+                <div className="cta-4 mb-2 text-white">Movie Dubbing</div>
+                <div className="text-white mb-0">Level up your experience of English learning</div>
               </div>
             </div>
           </Card>

@@ -83,7 +83,7 @@ const YourTimeChart = () => {
           borderColor: [themeValues.primary, themeValues.secondary, themeValues.quaternary],
         },
       ],
-      labels: ['Burger', 'Cakes', 'Pastry'],
+      labels: ['Movie', 'Academic', 'Illustration'],
       icons: ['burger', 'cupcake', 'loaf'],
     };
   }, [themeValues]);

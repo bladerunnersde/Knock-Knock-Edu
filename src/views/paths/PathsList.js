@@ -44,12 +44,12 @@ const PathsList = () => {
               <Col xs="12" className="col-sm p-0 h-100">
                 <Card.Body className="ps-lg-0">
                   <div className="d-flex flex-row justify-content-between mb-2">
-                    <div className="heading body-link mb-0">Becoming a Head Chef</div>
+                    <div className="heading body-link mb-0">Becoming a Jedi Master</div>
                     <div className="text-muted">60%</div>
                   </div>
                   <ProgressBar className="progress-md mb-2" now={60} />
                   <Clamp tag="span" clamp="2" className="text-muted mb-2">
-                    Sweet roll apple pie tiramisu halvah muffin dragée gummies sugar plum macaroon tiramisu bonbon sugar chocolate.
+                    Practice makes perfect and permanent.
                   </Clamp>
                   <NavLink to="/paths/detail" className="btn btn-link btn-icon btn-icon-end ps-0 p-1 stretched-link">
                     <span>Continue</span> <CsLineIcons icon="chevron-right" />
@@ -68,12 +68,12 @@ const PathsList = () => {
               <Col xs="12" className="col-sm p-0 h-100">
                 <Card.Body className="ps-lg-0">
                   <div className="d-flex flex-row justify-content-between mb-2">
-                    <div className="heading body-link mb-0">Academic Program Behind Food</div>
+                    <div className="heading body-link mb-0">Academic Program</div>
                     <div className="text-muted">25%</div>
                   </div>
                   <ProgressBar className="progress-md mb-2" now={25} />
                   <Clamp tag="span" clamp="2" className="text-muted mb-2">
-                    Tiramisu lemon drops tootsie roll macaroon tootsie roll topping brownie croissant tart halvah bear claw.
+                    You need to complete your paper with a fieldtrip.
                   </Clamp>
                   <NavLink to="/paths/detail" className="btn btn-link btn-icon btn-icon-end ps-0 p-1 stretched-link">
                     <span>Continue</span> <CsLineIcons icon="chevron-right" />
@@ -96,13 +96,11 @@ const PathsList = () => {
                 <img src="/img/illustration/icon-performance.webp" className="theme-filter" alt="performance" />
                 <div className="d-flex flex-column sh-5">
                   <NavLink to="/paths/detail" className="heading stretched-link">
-                    Becoming a Head Chef
+                    Becoming a Jedi Master
                   </NavLink>
                 </div>
               </div>
-              <div className="text-muted text-center">
-                Sweet roll apple pie tiramisu bonbon sugar plum muffin sesame snaps chocolate. Lollipop halvah powder.
-              </div>
+              <div className="text-muted text-center">10000 hours' practice</div>
             </Card.Body>
           </Card>
         </Col>
@@ -113,11 +111,11 @@ const PathsList = () => {
                 <img src="/img/illustration/icon-experiment.webp" className="theme-filter" alt="performance" />
                 <div className="d-flex flex-column sh-5">
                   <NavLink to="/paths/detail" className="heading stretched-link">
-                    Cooking Academic Program
+                    Academic Program
                   </NavLink>
                 </div>
               </div>
-              <div className="text-muted text-center">Chocolate cake marshmallow bear claw sweet. Apple pie macaroon sesame snaps candy jelly pudding.</div>
+              <div className="text-muted text-center">Learn deep and achieve more</div>
             </Card.Body>
           </Card>
         </Col>
@@ -128,11 +126,11 @@ const PathsList = () => {
                 <img src="/img/illustration/icon-storage.webp" className="theme-filter" alt="performance" />
                 <div className="d-flex flex-column sh-5">
                   <NavLink to="/paths/detail" className="heading stretched-link">
-                    Inventory Management
+                    Study Management
                   </NavLink>
                 </div>
               </div>
-              <div className="text-muted text-center">Cheesecake chocolate carrot cake pie lollipop lemon drops toffee lollipop.</div>
+              <div className="text-muted text-center">Achieve high efficiency at study</div>
             </Card.Body>
           </Card>
         </Col>
@@ -143,43 +141,11 @@ const PathsList = () => {
                 <img src="/img/illustration/icon-accounts.webp" className="theme-filter" alt="performance" />
                 <div className="d-flex flex-column sh-5">
                   <NavLink to="/paths/detail" className="heading stretched-link">
-                    Local Food Master
+                    Becomming a Grand Master
                   </NavLink>
                 </div>
               </div>
-              <div className="text-muted text-center">Cake tart apple pie bear bonbon sugar plum muffin sesame snaps sweet roll gingerbread bonbon sugar.</div>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card className="h-100">
-            <Card.Body>
-              <div className="text-center">
-                <img src="/img/illustration/icon-performance.webp" className="theme-filter" alt="performance" />
-                <div className="d-flex flex-column sh-5">
-                  <NavLink to="/paths/detail" className="heading stretched-link">
-                    Becoming a Head Chef
-                  </NavLink>
-                </div>
-              </div>
-              <div className="text-muted text-center">
-                Sweet roll apple pie tiramisu bonbon sugar plum muffin sesame snaps chocolate. Lollipop halvah powder.
-              </div>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card className="h-100">
-            <Card.Body>
-              <div className="text-center">
-                <img src="/img/illustration/icon-experiment.webp" className="theme-filter" alt="performance" />
-                <div className="d-flex flex-column sh-5">
-                  <NavLink to="/paths/detail" className="heading stretched-link">
-                    Cooking Academic Program
-                  </NavLink>
-                </div>
-              </div>
-              <div className="text-muted text-center">Chocolate cake marshmallow bear claw sweet. Apple pie macaroon sesame snaps candy jelly pudding.</div>
+              <div className="text-muted text-center">50000 hours of practice and unlearn what you've learned</div>
             </Card.Body>
           </Card>
         </Col>
@@ -201,8 +167,7 @@ const PathsList = () => {
                 </NavLink>
               </div>
               <Clamp tag="span" clamp="2" className="text-alternate mb-0 sh-5">
-                Jujubes brownie marshmallow apple pie donut ice cream jelly-o jelly-o gummi bears. Tootsie roll chocolate bar dragée bonbon cheesecake icing.
-                Danish wafer donut cookie caramels gummies topping.
+                Leveling up makes learning more attactive.
               </Clamp>
             </Card.Body>
             <Card.Footer className="border-0 pt-0">
@@ -211,8 +176,8 @@ const PathsList = () => {
                   <img src="/img/profile/profile-1.webp" className="img-fluid rounded-xl" alt="thumb" />
                 </div>
                 <div className="d-inline-block">
-                  <NavLink to="#">Vincent Choi</NavLink>
-                  <div className="text-muted text-small">Development Lead</div>
+                  <NavLink to="#">Bosco Lin</NavLink>
+                  <div className="text-muted text-small">Knight</div>
                 </div>
               </div>
             </Card.Footer>
@@ -230,8 +195,7 @@ const PathsList = () => {
                 </NavLink>
               </div>
               <Clamp tag="span" clamp="2" className="text-alternate mb-0 sh-5">
-                Jujubes brownie marshmallow apple pie donut ice cream jelly-o jelly-o gummi bears. Tootsie roll chocolate bar dragée bonbon cheesecake icing.
-                Danish wafer donut cookie caramels gummies topping.
+                Understands the fundamentals
               </Clamp>
             </Card.Body>
             <Card.Footer className="border-0 pt-0">
@@ -240,8 +204,8 @@ const PathsList = () => {
                   <img src="/img/profile/profile-2.webp" className="img-fluid rounded-xl" alt="thumb" />
                 </div>
                 <div className="d-inline-block">
-                  <NavLink to="#">Laurent Wilma</NavLink>
-                  <div className="text-muted text-small">Community Lead</div>
+                  <NavLink to="#">Flora Yao</NavLink>
+                  <div className="text-muted text-small">Youngling</div>
                 </div>
               </div>
             </Card.Footer>
@@ -259,8 +223,7 @@ const PathsList = () => {
                 </NavLink>
               </div>
               <Clamp tag="span" clamp="2" className="text-alternate mb-0 sh-5">
-                Jujubes brownie marshmallow apple pie donut ice cream jelly-o jelly-o gummi bears. Tootsie roll chocolate bar dragée bonbon cheesecake icing.
-                Danish wafer donut cookie caramels gummies topping.
+                Be more structured
               </Clamp>
             </Card.Body>
             <Card.Footer className="border-0 pt-0">
@@ -269,8 +232,8 @@ const PathsList = () => {
                   <img src="/img/profile/profile-3.webp" className="img-fluid rounded-xl" alt="thumb" />
                 </div>
                 <div className="d-inline-block">
-                  <NavLink to="#">Ryland Darrin</NavLink>
-                  <div className="text-muted text-small">Learning Expert</div>
+                  <NavLink to="#">Vincent Choi</NavLink>
+                  <div className="text-muted text-small">Jedi Master</div>
                 </div>
               </div>
             </Card.Footer>
@@ -288,8 +251,7 @@ const PathsList = () => {
                 </NavLink>
               </div>
               <Clamp tag="span" clamp="2" className="text-alternate mb-0 sh-5">
-                Jujubes brownie marshmallow apple pie donut ice cream jelly-o jelly-o gummi bears. Tootsie roll chocolate bar dragée bonbon cheesecake icing.
-                Danish wafer donut cookie caramels gummies topping.
+                Lay a strong foundation.
               </Clamp>
             </Card.Body>
             <Card.Footer className="border-0 pt-0">
@@ -298,8 +260,8 @@ const PathsList = () => {
                   <img src="/img/profile/profile-4.webp" className="img-fluid rounded-xl" alt="thumb" />
                 </div>
                 <div className="d-inline-block">
-                  <NavLink to="#">Eneida Farzana</NavLink>
-                  <div className="text-muted text-small">Quiz Designer</div>
+                  <NavLink to="#">Nemo Huang</NavLink>
+                  <div className="text-muted text-small">Jedi Master</div>
                 </div>
               </div>
             </Card.Footer>

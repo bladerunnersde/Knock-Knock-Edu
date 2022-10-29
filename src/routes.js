@@ -19,7 +19,7 @@ const apps = {
 };
 
 const courses = {
-  explore: lazy(() => import('views/courses/CoursesExplore')),
+  // explore: lazy(() => import('views/courses/CoursesExplore')),
   list: lazy(() => import('views/courses/CoursesList')),
   detail: lazy(() => import('views/courses/CoursesDetail')),
 };
@@ -81,7 +81,7 @@ const routesAndMenuItems = {
       redirect: true,
       to: `${appRoot}/courses/explore`,
       subs: [
-        { path: '/explore', label: 'menu.explore', component: courses.explore },
+        // { path: '/explore', label: 'menu.explore', component: courses.explore },
         { path: '/list', label: 'menu.list', component: courses.list },
         { path: '/detail', label: 'menu.detail', component: courses.detail },
       ],

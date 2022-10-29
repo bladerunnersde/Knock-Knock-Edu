@@ -21,24 +21,24 @@ const ResetPassword = () => {
 
   const formik = useFormik({ initialValues, validationSchema, onSubmit });
   const { handleSubmit, handleChange, values, touched, errors } = formik;
-  const leftSide = (
-    <div className="min-h-100 d-flex align-items-center">
-      <div className="w-100 w-lg-75 w-xxl-50">
-        <div>
-          <div className="mb-5">
-            <h1 className="display-3 text-white">Knock Knock Edu</h1>
-            {/* <h1 className="display-3 text-white">English learning that is fun, enlightening and creative </h1> */}
-          </div>
-          <p className="h6 text-white lh-1-5 mb-5">English learning that is fun, enlightening and creative</p>
-          <div className="mb-5">
-            <Button size="lg" variant="outline-white" href="/">
-              Learn More
-            </Button>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+  // const leftSide = (
+  //   <div className="min-h-100 d-flex align-items-center">
+  //     <div className="w-100 w-lg-75 w-xxl-50">
+  //       <div>
+  //         <div className="mb-5">
+  //           <h1 className="display-3 text-white">Knock Knock Edu</h1>
+  //           {/* <h1 className="display-3 text-white">English learning that is fun, enlightening and creative </h1> */}
+  //         </div>
+  //         <p className="h6 text-white lh-1-5 mb-5">English learning that is fun, enlightening and creative</p>
+  //         <div className="mb-5">
+  //           <Button size="lg" variant="outline-white" href="/">
+  //             Learn More
+  //           </Button>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   </div>
+  // );
 
   const rightSide = (
     <div className="sw-lg-70 min-h-100 bg-foreground d-flex justify-content-center align-items-center shadow-deep py-5 full-page-content-right-border">

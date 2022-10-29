@@ -369,7 +369,7 @@ const ElearningDashboard = () => {
                 <Card.Body className="text-center">
                   <NavLink to="#">
                     <CsLineIcons icon="cupcake" className="text-primary" />
-                    <p className="heading mt-3 text-body">Cupcakes</p>
+                    <p className="heading mt-3 text-body">Movie Appreciation</p>
                     <div className="text-extra-small fw-medium text-muted">14 COURSES</div>
                   </NavLink>
                 </Card.Body>
@@ -380,7 +380,7 @@ const ElearningDashboard = () => {
                 <Card.Body className="text-center">
                   <NavLink to="#">
                     <CsLineIcons icon="loaf" className="text-primary" />
-                    <p className="heading mt-3 text-body">Breads</p>
+                    <p className="heading mt-3 text-body">Academic Program</p>
                     <div className="text-extra-small fw-medium text-muted">3 COURSES</div>
                   </NavLink>
                 </Card.Body>
@@ -391,7 +391,7 @@ const ElearningDashboard = () => {
                 <Card.Body className="text-center">
                   <NavLink to="#">
                     <CsLineIcons icon="radish" className="text-primary" />
-                    <p className="heading mt-3 text-body">Vegetables</p>
+                    <p className="heading mt-3 text-body">Creative Illustration</p>
                     <div className="text-extra-small fw-medium text-muted">8 COURSES</div>
                   </NavLink>
                 </Card.Body>
@@ -402,7 +402,7 @@ const ElearningDashboard = () => {
                 <Card.Body className="text-center">
                   <NavLink to="#">
                     <CsLineIcons icon="pear" className="text-primary" />
-                    <p className="heading mt-3 text-body">Fruits</p>
+                    <p className="heading mt-3 text-body">Drama and Art</p>
                     <div className="text-extra-small fw-medium text-muted">9 COURSES</div>
                   </NavLink>
                 </Card.Body>
@@ -456,7 +456,7 @@ const ElearningDashboard = () => {
             <Card.Body>
               <h5 className="heading mb-0">
                 <NavLink to="/courses/detail" className="body-link stretched-link">
-                  Introduction to Bread Making
+                  Introduction to Jedi Master
                 </NavLink>
               </h5>
             </Card.Body>
@@ -485,7 +485,7 @@ const ElearningDashboard = () => {
             <Card.Body>
               <h5 className="heading mb-0">
                 <NavLink to="/courses/detail" className="body-link stretched-link">
-                  Apple Cake Recipe
+                  Academic Program
                 </NavLink>
               </h5>
             </Card.Body>
@@ -514,7 +514,7 @@ const ElearningDashboard = () => {
             <Card.Body>
               <h5 className="heading mb-0">
                 <NavLink to="/courses/detail" className="body-link stretched-link">
-                  Dough for the Molds
+                  Creative Illustration
                 </NavLink>
               </h5>
             </Card.Body>
@@ -543,7 +543,7 @@ const ElearningDashboard = () => {
             <Card.Body>
               <h5 className="heading mb-0">
                 <NavLink to="/courses/detail" className="body-link stretched-link">
-                  Fruit Decorations
+                  Refine Skills
                 </NavLink>
               </h5>
             </Card.Body>
@@ -572,7 +572,7 @@ const ElearningDashboard = () => {
             <Card.Body>
               <h5 className="heading mb-0">
                 <NavLink to="/courses/detail" className="body-link stretched-link">
-                  14 Facts About Sugar
+                  Drama and Arts
                 </NavLink>
               </h5>
             </Card.Body>

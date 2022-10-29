@@ -12,7 +12,7 @@ const PathsDetail = () => {
   const description = 'Elearning Portal Path Detail Page';
 
   const breadcrumbs = [
-    { to: '', text: 'Home' },
+    { to: 'dashboards/elearning', text: 'Home' },
     { to: 'paths/list', text: 'Path List' },
   ];
   return (
@@ -49,11 +49,11 @@ const PathsDetail = () => {
                 <img src="/img/illustration/icon-performance.webp" className="theme-filter" alt="performance" />
                 <div className="d-flex flex-column sh-5">
                   <NavLink to="/paths/detail" className="heading stretched-link">
-                    Becoming a Head Chef
+                    Becoming a Jedi Master
                   </NavLink>
                 </div>
               </div>
-              <div className="text-muted mb-4">Sweet roll apple pie tiramisu bonbon sugar plum muffin sesame snaps chocolate. Lollipop halvah powder.</div>
+              <div className="text-muted mb-4">The most popular study path</div>
               <Row className="g-0 align-items-center mb-1">
                 <Col xs="auto">
                   <div className="sw-3 sh-4 d-flex justify-content-center align-items-center">
@@ -158,7 +158,7 @@ const PathsDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Basic Introduction to Bread Making
+                            Basic Introduction to Jedi Master
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">
@@ -190,7 +190,7 @@ const PathsDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Apple Cake Recipe
+                            Academic Program
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">
@@ -222,7 +222,7 @@ const PathsDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Cooking Tips the Perfect Burger
+                            Study Tips the Perfect Jedi Master
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">
@@ -254,7 +254,7 @@ const PathsDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Fruit Decorations
+                            Refine Skills
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">
@@ -286,7 +286,7 @@ const PathsDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Recipes for Sweet and Healty Treats
+                            Recipes for Achievement
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">
@@ -318,7 +318,7 @@ const PathsDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Carrot Cake Gingerbread
+                            Add More Skills
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">
@@ -350,7 +350,7 @@ const PathsDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Apple Cake Recipe for Starters
+                            Academic Program for Starters
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">
@@ -382,7 +382,7 @@ const PathsDetail = () => {
                       <div className="mb-0 h6">
                         <NavLink to="#" className="body-link stretched-link d-block mb-3 sh-3 h6 lh-1-5">
                           <Clamp tag="span" clamp="1">
-                            Advanced Sandwich Making Techniques
+                            Advanced Techniques
                           </Clamp>
                         </NavLink>
                         <div className="card-text mb-2">
@@ -414,11 +414,11 @@ const PathsDetail = () => {
                 <Card.Body>
                   <NavLink to="#" className="body-link stretched-link d-block mb-2 sh-3 h6 lh-1-5">
                     <Clamp tag="span" clamp="1">
-                      Basic Introduction to Bread Making Techniques
+                      Basic Introduction to Jedi Master Techniques
                     </Clamp>
                   </NavLink>
                   <Clamp tag="span" className="mb-3 text-muted sh-5" clamp="2">
-                    Pie fruitcake jelly beans. Candy tootsie chocolate croissant jujubes icing chocolate croissant jujubes icing macaroon croissant.
+                    Understand before you start
                   </Clamp>
                   <Row className="g-0 align-items-center mb-1">
                     <Col xs="auto">
@@ -479,11 +479,11 @@ const PathsDetail = () => {
                 <Card.Body>
                   <NavLink to="#" className="body-link stretched-link d-block mb-2 sh-3 h6 lh-1-5">
                     <Clamp tag="span" clamp="1">
-                      Advanced Sandwich Making Techniques
+                      Advanced Techniques
                     </Clamp>
                   </NavLink>
                   <Clamp tag="span" className="mb-3 text-muted sh-5" clamp="2">
-                    Pie fruitcake jelly beans. Candy tootsie chocolate croissant jujubes icing chocolate croissant jujubes icing macaroon croissant.
+                    Understand before you start
                   </Clamp>
                   <Row className="g-0 align-items-center mb-1">
                     <Col xs="auto">
@@ -544,11 +544,11 @@ const PathsDetail = () => {
                 <Card.Body>
                   <NavLink to="#" className="body-link stretched-link d-block mb-2 sh-3 h6 lh-1-5">
                     <Clamp tag="span" clamp="1">
-                      Advanced Sandwich Making Techniques
+                      Advanced Techniques
                     </Clamp>
                   </NavLink>
                   <Clamp tag="span" className="mb-3 text-muted sh-5" clamp="2">
-                    Pie fruitcake jelly beans. Candy tootsie chocolate croissant jujubes icing chocolate croissant jujubes icing macaroon croissant.
+                    Understand before you start
                   </Clamp>
                   <Row className="g-0 align-items-center mb-1">
                     <Col xs="auto">
@@ -609,11 +609,11 @@ const PathsDetail = () => {
                 <Card.Body>
                   <NavLink to="#" className="body-link stretched-link d-block mb-2 sh-3 h6 lh-1-5">
                     <Clamp tag="span" clamp="1">
-                      Apple Cake Recipe for Starters
+                      Academic Program for Starters
                     </Clamp>
                   </NavLink>
                   <Clamp tag="span" className="mb-3 text-muted sh-5" clamp="2">
-                    Pie fruitcake jelly beans. Candy tootsie chocolate croissant jujubes icing chocolate croissant jujubes icing macaroon croissant.
+                    Understand before you start
                   </Clamp>
                   <Row className="g-0 align-items-center mb-1">
                     <Col xs="auto">

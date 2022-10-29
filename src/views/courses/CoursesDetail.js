@@ -9,7 +9,8 @@ import CsLineIcons from 'cs-line-icons/CsLineIcons';
 const PurePlyr = React.memo(() => {
   const videoSrc = {
     type: 'video',
-    sources: [{ src: 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4' }],
+    sources: [{ src: 'Lij6FIGSaTE', provider: 'youtube' }],
+    // sources: [{ src: 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4' }],
     poster: '/img/product/large/product-2.webp',
   };
 
@@ -17,11 +18,11 @@ const PurePlyr = React.memo(() => {
 });
 
 const CoursesDetail = () => {
-  const title = 'Bread Making Techniques';
+  const title = 'Immersive Movie Dubbing';
   const description = 'Elearning Portal Course Detail Page';
 
   const breadcrumbs = [
-    { to: '', text: 'Home' },
+    { to: 'dashboards/elearning', text: 'Home' },
     { to: 'courses/explore', text: 'Courses' },
   ];
 
@@ -58,40 +59,31 @@ const CoursesDetail = () => {
               <PurePlyr />
             </div>
             <Card.Body>
-              <h4 className="mb-3">Carrot Cake Gingerbread</h4>
+              <h4 className="mb-3">Agatha from WandaVision</h4>
               <div>
+                <h6 className="mb-3 mt-5 text-alternate">Performed by Vincent and Leia - Directed by David Lee</h6>
                 <p>
-                  Toffee croissant icing toffee. Sweet roll chupa chups marshmallow muffin liquorice chupa chups soufflé bonbon. Liquorice gummi bears cake
-                  donut chocolate lollipop gummi bears. Cotton candy cupcake ice cream gummies dessert muffin chocolate jelly. Danish brownie chocolate bar
-                  lollipop cookie tootsie roll candy canes. Jujubes lollipop cheesecake gummi bears cheesecake. Cake jujubes soufflé.
-                </p>
-                <p>
-                  Cake chocolate bar biscuit sweet roll liquorice jelly jujubes. Gingerbread icing macaroon bear claw jelly toffee. Chocolate cake marshmallow
-                  muffin wafer. Pastry cake tart apple pie bear claw sweet. Apple pie macaroon sesame snaps cotton candy jelly
-                  <u>pudding lollipop caramels</u>
-                  marshmallow. Powder halvah dessert ice cream. Carrot cake gingerbread chocolate cake tootsie roll. Oat cake jujubes jelly-o jelly chupa chups
-                  lollipop jelly wafer soufflé.
-                </p>
-                <h6 className="mb-3 mt-5 text-alternate">Sesame Snaps Lollipop Macaroon</h6>
-                <p>
-                  Jelly-o jelly oat cake cheesecake halvah. Cupcake sweet roll donut. Sesame snaps lollipop macaroon. Oat cake chocolate cake marzipan pudding
-                  danish gummies. Dragée liquorice jelly beans jelly jelly sesame snaps brownie. Cheesecake chocolate cake sweet roll cupcake dragée croissant
-                  muffin. Lemon drops cupcake croissant liquorice donut cookie cake. Gingerbread biscuit bear claw marzipan tiramisu topping. Jelly-o croissant
-                  chocolate bar gummi bears dessert lemon drops gingerbread croissant. Donut candy jelly.
+                  “Agatha All Along” is featured at the end of WandaVision episode 7 after the reveal that Wanda’s neighbor Agnes is actually the antagonist
+                  Agatha Harkness, a powerful witch. The song serves as Agatha’s theme song, following in the sitcom style of WandaVision. Sonically, “Agatha
+                  All Along” is inspired by the 60’s sitcom The Munsters theme song. Even the creepy dripping font used in the title cards is similar to that of
+                  The Munsters.
                 </p>
                 <ul className="list-unstyled">
-                  <li>Croissant</li>
-                  <li>Sesame snaps</li>
-                  <li>Ice cream</li>
-                  <li>Candy canes</li>
-                  <li>Lemon drops</li>
+                  <li>Who's been messing up everything?</li>
+                  <li>It's been Agatha all along (ha, ha!)</li>
+                  <li>Who's been pulling every evil string?</li>
+                  <li>It's been Agatha all along</li>
+                  <li>She's insidious (Ha, ha!)</li>
+                  <li>So perfidious</li>
+                  <li>That you haven't even noticed</li>
+                  <li>And the pity is (The pity is)</li>
+                  <li>Pity, pity, pity, pity</li>
+                  <li>It's too late to fix anything</li>
+                  <li>Now that everything has gone wrong</li>
+                  <li>Thanks to Agatha</li>
+                  <li>Naughty Agatha</li>
+                  <li>It's been Agatha all along</li>
                 </ul>
-                <h6 className="mb-3 mt-5 text-alternate">Muffin Sweet Roll Apple Pie</h6>
-                <p>
-                  Carrot cake gummi bears wafer sesame snaps soufflé cheesecake cheesecake cake. Sweet roll apple pie tiramisu bonbon sugar plum muffin sesame
-                  snaps chocolate. Lollipop sweet roll gingerbread halvah sesame snaps powder. Wafer halvah chocolate soufflé icing. Cotton candy danish
-                  lollipop jelly-o candy caramels.
-                </p>
               </div>
             </Card.Body>
             <Card.Footer className="border-0 pt-0">
@@ -99,13 +91,13 @@ const CoursesDetail = () => {
                 <Col xs="6">
                   <div className="d-flex align-items-center">
                     <div className="sw-5 d-inline-block position-relative me-3">
-                      <img src="/img/profile/profile-1.webp" className="img-fluid rounded-xl" alt="thumb" />
+                      <img src="/img/profile/profile-12.webp" className="img-fluid rounded-xl" alt="thumb" />
                     </div>
                     <div className="d-inline-block">
                       <Button variant="link" className="lh-1 d-inline-block p-0">
-                        Vincent Choi
+                        David Lee
                       </Button>
-                      <div className="text-muted text-small">Development Lead</div>
+                      <div className="text-muted text-small">Grand Master and Director</div>
                     </div>
                   </div>
                 </Col>
@@ -144,17 +136,11 @@ const CoursesDetail = () => {
                   <div className="h-100">
                     <div className="d-flex flex-column justify-content-start">
                       <div className="d-flex flex-column">
-                        <p className="heading">01. Dashboards</p>
+                        <p className="heading">01. Content Study</p>
                         <ul className="list-unstyled">
-                          <li>- Danish brownie fruitcake tootsie</li>
-                          <li>- Fruitcake tart dessert</li>
-                          <li>- Bar carrot cake</li>
-                          <li>- Snaps muffin macaroon tiramisu</li>
-                          <li>- Ice cream marshmallow</li>
-                          <li>- Plum caramels fruitcake</li>
-                          <li>- Chocolate bar carrot cake</li>
-                          <li>- Cotton candy gummies</li>
-                          <li>- Danish cake gummies jelly</li>
+                          <li>- Watch WandaVision</li>
+                          <li>- Learn the scripts</li>
+                          <li>- Understand Marvel Universe</li>
                         </ul>
                       </div>
                     </div>
@@ -177,119 +163,11 @@ const CoursesDetail = () => {
                   <div className="h-100">
                     <div className="d-flex flex-column justify-content-start">
                       <div className="d-flex flex-column">
-                        <p className="heading">02. Applications</p>
+                        <p className="heading">02. Acting and Shooting</p>
                         <ul className="list-unstyled">
-                          <li>- Ice cream marshmallow</li>
-                          <li>- Plum caramels fruitcake</li>
-                          <li>- Chocolate bar carrot cake</li>
-                          <li>- Danish brownie fruitcake tootsie</li>
-                          <li>- Fruitcake tart dessert</li>
-                          <li>- Bar carrot cake</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-              <Row className="g-0">
-                <Col xs="auto" className="sw-1 d-flex flex-column justify-content-center align-items-center position-relative me-4">
-                  <div className="w-100 d-flex sh-1 position-relative justify-content-center">
-                    <div className="line-w-1 bg-separator h-100 position-absolute" />
-                  </div>
-                  <div className="rounded-xl shadow d-flex flex-shrink-0 justify-content-center align-items-center">
-                    <div className="bg-gradient-light sw-1 sh-1 rounded-xl position-relative" />
-                  </div>
-                  <div className="w-100 d-flex h-100 justify-content-center position-relative">
-                    <div className="line-w-1 bg-separator h-100 position-absolute" />
-                  </div>
-                </Col>
-                <Col className="mb-4">
-                  <div className="h-100">
-                    <div className="d-flex flex-column justify-content-start">
-                      <div className="d-flex flex-column">
-                        <p className="heading">03. Interface</p>
-                        <ul className="list-unstyled">
-                          <li>- Ice cream marshmallow</li>
-                          <li>- Plum caramels fruitcake</li>
-                          <li>- Chocolate bar carrot cake</li>
-                          <li>- Danish brownie fruitcake tootsie</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-              <Row className="g-0">
-                <Col xs="auto" className="sw-1 d-flex flex-column justify-content-center align-items-center position-relative me-4">
-                  <div className="w-100 d-flex sh-1 position-relative justify-content-center">
-                    <div className="line-w-1 bg-separator h-100 position-absolute" />
-                  </div>
-                  <div className="rounded-xl shadow d-flex flex-shrink-0 justify-content-center align-items-center">
-                    <div className="bg-gradient-light sw-1 sh-1 rounded-xl position-relative" />
-                  </div>
-                  <div className="w-100 d-flex h-100 justify-content-center position-relative">
-                    <div className="line-w-1 bg-separator h-100 position-absolute" />
-                  </div>
-                </Col>
-                <Col className="mb-4">
-                  <div className="h-100">
-                    <div className="d-flex flex-column justify-content-start">
-                      <div className="d-flex flex-column">
-                        <p className="heading">04. Conclusion</p>
-                        <ul className="list-unstyled">
-                          <li>- Chocolate bar carrot cake</li>
-                          <li>- Danish brownie fruitcake tootsie</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-              <Row className="g-0">
-                <Col xs="auto" className="sw-1 d-flex flex-column justify-content-center align-items-center position-relative me-4">
-                  <div className="w-100 d-flex sh-1 position-relative justify-content-center">
-                    <div className="line-w-1 bg-separator h-100 position-absolute" />
-                  </div>
-                  <div className="rounded-xl shadow d-flex flex-shrink-0 justify-content-center align-items-center">
-                    <div className="bg-gradient-light sw-1 sh-1 rounded-xl position-relative" />
-                  </div>
-                  <div className="w-100 d-flex h-100 justify-content-center position-relative">
-                    <div className="line-w-1 bg-separator h-100 position-absolute" />
-                  </div>
-                </Col>
-                <Col className="mb-4">
-                  <div className="h-100">
-                    <div className="d-flex flex-column justify-content-start">
-                      <div className="d-flex flex-column">
-                        <p className="heading">05. What is Next?</p>
-                        <ul className="list-unstyled">
-                          <li>- Danish brownie fruitcake tootsie</li>
-                          <li>- Fruitcake tart dessert</li>
-                          <li>- Bar carrot cake</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-              <Row className="g-0">
-                <Col xs="auto" className="sw-1 d-flex flex-column justify-content-center align-items-center position-relative me-4">
-                  <div className="w-100 d-flex sh-1 position-relative justify-content-center">
-                    <div className="line-w-1 bg-separator h-100 position-absolute" />
-                  </div>
-                  <div className="rounded-xl shadow d-flex flex-shrink-0 justify-content-center align-items-center">
-                    <div className="bg-gradient-light sw-1 sh-1 rounded-xl position-relative" />
-                  </div>
-                  <div className="w-100 d-flex h-100 justify-content-center position-relative" />
-                </Col>
-                <Col>
-                  <div className="h-100">
-                    <div className="d-flex flex-column justify-content-start">
-                      <div className="d-flex flex-column">
-                        <p className="heading">06. Credits</p>
-                        <ul className="list-unstyled">
-                          <li>- Chocolate bar carrot cake</li>
-                          <li>- Danish brownie fruitcake tootsie</li>
+                          <li>- Understand the characters</li>
+                          <li>- Memorize the lines</li>
+                          <li>- Action time</li>
                         </ul>
                       </div>
                     </div>
@@ -406,7 +284,7 @@ const CoursesDetail = () => {
                     </div>
                   </Col>
                   <Col className="pe-3">
-                    <div>Cherish Kerr</div>
+                    <div>Flora Yao</div>
                     <div className="text-muted text-small mb-2">2 days ago</div>
                     <Rating
                       className="align-middle"
@@ -415,7 +293,7 @@ const CoursesDetail = () => {
                       emptySymbol={<i className="cs-star text-primary" />}
                       fullSymbol={<i className="cs-star-full text-primary" />}
                     />
-                    <div className="text-medium text-alternate lh-1-25">Macaroon!</div>
+                    <div className="text-medium text-alternate lh-1-25">OMG!</div>
                   </Col>
                 </Row>
                 <Row className="g-0 w-100 border-bottom border-separator-light pb-3 mb-3">
@@ -425,7 +303,7 @@ const CoursesDetail = () => {
                     </div>
                   </Col>
                   <Col className="pe-3">
-                    <div>Vincent Choi</div>
+                    <div>Bosco Lin</div>
                     <div className="text-muted text-small mb-2">3 days ago</div>
                     <Rating
                       className="align-middle"
@@ -434,7 +312,7 @@ const CoursesDetail = () => {
                       emptySymbol={<i className="cs-star text-primary" />}
                       fullSymbol={<i className="cs-star-full text-primary" />}
                     />
-                    <div className="text-medium text-alternate lh-1-25">Cupcake cake fruitcake. Powder chocolate bar soufflé gummi bears topping donut.</div>
+                    <div className="text-medium text-alternate lh-1-25">I wanna try Agatha next time!</div>
                   </Col>
                 </Row>
                 <Row className="g-0 w-100 border-bottom border-separator-light pb-3 mb-3">
@@ -444,8 +322,8 @@ const CoursesDetail = () => {
                     </div>
                   </Col>
                   <Col className="pe-3">
-                    <div>Flora Yao</div>
-                    <div className="text-muted text-small mb-2">4 days ago</div>
+                    <div>Vincent Choi</div>
+                    <div className="text-muted text-small mb-2">5 days ago</div>
                     <Rating
                       className="align-middle"
                       initialRating={5}
@@ -453,7 +331,7 @@ const CoursesDetail = () => {
                       emptySymbol={<i className="cs-star text-primary" />}
                       fullSymbol={<i className="cs-star-full text-primary" />}
                     />
-                    <div className="text-medium text-alternate lh-1-25">Nice, very tasty.</div>
+                    <div className="text-medium text-alternate lh-1-25">I could do better next time!</div>
                   </Col>
                 </Row>
                 <Row className="g-0 w-100 border-bottom border-separator-light pb-3 mb-3">
@@ -463,7 +341,7 @@ const CoursesDetail = () => {
                     </div>
                   </Col>
                   <Col className="pe-3">
-                    <div>Zayn Hartley</div>
+                    <div>Nemo Huang</div>
                     <div className="text-muted text-small mb-2">1 week ago</div>
                     <Rating
                       className="align-middle"
@@ -472,10 +350,7 @@ const CoursesDetail = () => {
                       emptySymbol={<i className="cs-star text-primary" />}
                       fullSymbol={<i className="cs-star-full text-primary" />}
                     />
-                    <div className="text-medium text-alternate lh-1-25">
-                      Chupa chups topping pastry halvah. Jelly cake jelly sesame snaps jelly beans jelly beans. Biscuit powder brownie powder sesame snaps
-                      jelly-o dragée cake. Pie tiramisu cake jelly lemon drops. Macaroon sugar plum apple pie carrot cake jelly beans chocolate.
-                    </div>
+                    <div className="text-medium text-alternate lh-1-25">That's too awesome, guys!</div>
                   </Col>
                 </Row>
               </div>
@@ -551,7 +426,7 @@ const CoursesDetail = () => {
                       <div className="sh-4 d-flex align-items-center lh-1-25">Release</div>
                     </Col>
                     <Col xs="auto">
-                      <div className="sh-4 d-flex align-items-center text-alternate">05.11.2021</div>
+                      <div className="sh-4 d-flex align-items-center text-alternate">01.11.2022</div>
                     </Col>
                   </Row>
                 </Col>
@@ -599,22 +474,22 @@ const CoursesDetail = () => {
           <Card className="mb-5">
             <Card.Body className="mb-n1">
               <Button size="sm" variant="outline-alternate" className="mb-1 me-1">
-                Food (12)
+                Youngling (12)
               </Button>
               <Button size="sm" variant="outline-alternate" className="mb-1 me-1">
-                Baking (3)
+                Padawan (3)
               </Button>
               <Button size="sm" variant="outline-alternate" className="mb-1 me-1">
-                Sweet (1)
+                Knight (1)
               </Button>
               <Button size="sm" variant="outline-alternate" className="mb-1 me-1">
-                Molding (3)
+                Master (3)
               </Button>
               <Button size="sm" variant="outline-alternate" className="mb-1 me-1">
-                Pastry (5)
+                Council Member (5)
               </Button>
               <Button size="sm" variant="outline-alternate" className="mb-1 me-1">
-                Healthy (7)
+                Master of the Order (7)
               </Button>
             </Card.Body>
           </Card>
@@ -646,7 +521,7 @@ const CoursesDetail = () => {
                 </div>
               </div>
               <div className="ms-5 text-start">
-                <p className="mb-1">Sandwich Novice</p>
+                <p className="mb-1">Knight</p>
                 <p className="mb-0 text-primary">Level 1</p>
               </div>
             </Card.Body>
@@ -675,7 +550,7 @@ const CoursesDetail = () => {
                 </div>
               </div>
               <div className="ms-5 text-start">
-                <p className="mb-1">Cake Apprentice</p>
+                <p className="mb-1">Jedi Master</p>
                 <p className="mb-0 text-primary">Level 2</p>
               </div>
             </Card.Body>
