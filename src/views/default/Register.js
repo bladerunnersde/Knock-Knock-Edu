@@ -56,7 +56,7 @@ const Register = () => {
     <div className="sw-lg-70 min-h-100 bg-foreground d-flex justify-content-center align-items-center shadow-deep py-5 full-page-content-right-border">
       <div className="sw-lg-50 px-5">
         <div className="sh-11">
-          <NavLink to="/dashboards/elearning">
+          <NavLink to="/">
             <div className="logo-default" />
           </NavLink>
         </div>

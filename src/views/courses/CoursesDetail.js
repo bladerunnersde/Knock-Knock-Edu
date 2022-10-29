@@ -17,6 +17,16 @@ const PurePlyr = React.memo(() => {
   return <Plyr source={videoSrc} options={{}} />;
 });
 
+const PurePlyr2 = React.memo(() => {
+  const videoSrc = {
+    type: 'video',
+    sources: [{ src: '765230266', provider: 'vimeo' }],
+    poster: '/img/product/large/product-7.png',
+  };
+
+  return <Plyr source={videoSrc} options={{}} />;
+});
+
 const CoursesDetail = () => {
   const title = 'Immersive Movie Dubbing';
   const description = 'Elearning Portal Course Detail Page';
@@ -55,7 +65,7 @@ const CoursesDetail = () => {
           {/* Preview Start */}
           <h2 className="small-title">Preview</h2>
           <Card className="mb-5">
-            <div className="card-img-top sh-50 cover">
+            <div className="card-img-top sh-75 cover">
               <PurePlyr />
             </div>
             <Card.Body>
@@ -105,7 +115,7 @@ const CoursesDetail = () => {
                   <Row className="g-0 justify-content-end">
                     <Col xs="auto" className="pe-3">
                       <CsLineIcons icon="eye" width="15" height="15" className="cs-icon icon text-primary me-1" />
-                      <span className="align-middle">221</span>
+                      <span className="align-middle">2210</span>
                     </Col>
                     <Col xs="auto">
                       <CsLineIcons icon="message" width="15" height="15" className="cs-icon icon text-primary me-1" />
@@ -117,6 +127,59 @@ const CoursesDetail = () => {
             </Card.Footer>
           </Card>
           {/* Preview End */}
+          <Card className="mb-5">
+            <div className="card-img-top sh-75 cover">
+              <PurePlyr2 />
+            </div>
+            <Card.Body>
+              <h4 className="mb-3">Satisfied from Hamilton</h4>
+              <div>
+                <h6 className="mb-3 mt-5 text-alternate">Performed by Leia - Directed by David Lee</h6>
+                <p>
+                  "Satisfied" is the eleventh song from Act 1 of the musical Hamilton, based on the life of Alexander Hamilton, which premiered on Broadway in
+                  2015. Lin-Manuel Miranda wrote both the music and lyrics to the song. The song is sung by the character Angelica Schuyler, originally
+                  performed by Renée Elise Goldsberry.
+                </p>
+                <p>
+                  "Satisfied" begins with Angelica Schuyler's wedding toast for Alexander Hamilton and Eliza (her sister), then proceeds to rewind and retell
+                  the events of the previous song, "Helpless," from her own perspective. She, who in "The Schuyler Sisters" had declared was looking for a "mind
+                  at work", has now found it in Hamilton yet is forced to give it up for the sake of her sister who she ‘Knows like her own mind’.[3] On Stage
+                  explains: "in a truly inspired piece of staging that literally made my jaw drop, the scene rewinds around Angelica before your eyes, taking us
+                  back to the beginning of 'Helpless'—except now we're seeing that fateful first meeting of the Schuyler sisters and Hamilton from Angelica's
+                  point of view."
+                </p>
+              </div>
+            </Card.Body>
+            <Card.Footer className="border-0 pt-0">
+              <Row className="align-items-center">
+                <Col xs="6">
+                  <div className="d-flex align-items-center">
+                    <div className="sw-5 d-inline-block position-relative me-3">
+                      <img src="/img/profile/profile-12.webp" className="img-fluid rounded-xl" alt="thumb" />
+                    </div>
+                    <div className="d-inline-block">
+                      <Button variant="link" className="lh-1 d-inline-block p-0">
+                        David Lee
+                      </Button>
+                      <div className="text-muted text-small">Grand Master and Director</div>
+                    </div>
+                  </div>
+                </Col>
+                <Col xs="6">
+                  <Row className="g-0 justify-content-end">
+                    <Col xs="auto" className="pe-3">
+                      <CsLineIcons icon="eye" width="15" height="15" className="cs-icon icon text-primary me-1" />
+                      <span className="align-middle">1988</span>
+                    </Col>
+                    <Col xs="auto">
+                      <CsLineIcons icon="message" width="15" height="15" className="cs-icon icon text-primary me-1" />
+                      <span className="align-middle">13</span>
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
+            </Card.Footer>
+          </Card>
 
           {/* Table of Contents Start */}
           <h2 className="small-title">Table of Contents</h2>
@@ -138,9 +201,9 @@ const CoursesDetail = () => {
                       <div className="d-flex flex-column">
                         <p className="heading">01. Content Study</p>
                         <ul className="list-unstyled">
-                          <li>- Watch WandaVision</li>
+                          <li>- Watch the movie</li>
                           <li>- Learn the scripts</li>
-                          <li>- Understand Marvel Universe</li>
+                          <li>- Understand background knowledge</li>
                         </ul>
                       </div>
                     </div>
@@ -185,7 +248,7 @@ const CoursesDetail = () => {
               <Row className="mb-5">
                 <Col xs="12" sm="auto" className="mb-3 mb-sm-0">
                   <div className="w-100 sw-sm-19 sw-md-23 border sh-16 rounded-md d-flex flex-column align-items-center justify-content-center">
-                    <div className="cta-1 text-alternate mb-2">4.8</div>
+                    <div className="cta-1 text-alternate mb-2">4.9</div>
                     <div>
                       <Rating
                         className="align-middle"

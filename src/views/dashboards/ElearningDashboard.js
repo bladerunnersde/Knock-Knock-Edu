@@ -103,7 +103,7 @@ const ElearningDashboard = () => {
                 <Card.Body className="py-0 h-100 d-flex align-items-center">
                   <div className="w-100">
                     <div className="d-flex flex-row justify-content-between mb-2">
-                      <NavLink to="/courses/detail">Student Case 1</NavLink>
+                      <NavLink to="/courses/detail">Agatha from WandaVision</NavLink>
                       <div className="text-muted">67%</div>
                     </div>
                     <ProgressBar className="progress-md mb-2" now={67} />
@@ -126,7 +126,7 @@ const ElearningDashboard = () => {
                 <Card.Body className="py-0 h-100 d-flex align-items-center">
                   <div className="w-100">
                     <div className="d-flex flex-row justify-content-between mb-2">
-                      <NavLink to="/courses/detail">Student Case 2</NavLink>
+                      <NavLink to="/courses/detail">Satisfied from Hamilton</NavLink>
                       <div className="text-muted">85%</div>
                     </div>
                     <ProgressBar className="progress-md mb-2" now={85} />
@@ -149,7 +149,7 @@ const ElearningDashboard = () => {
                 <Card.Body className="py-0 h-100 d-flex align-items-center">
                   <div className="w-100">
                     <div className="d-flex flex-row justify-content-between mb-2">
-                      <NavLink to="/courses/detail">Student Case 3</NavLink>
+                      <NavLink to="/courses/detail">Batman</NavLink>
                       <div className="text-muted">14%</div>
                     </div>
                     <ProgressBar className="progress-md mb-2" now={14} />
