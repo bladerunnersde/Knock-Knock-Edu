@@ -17,7 +17,7 @@ import DeleteConfirmModal from './components/DeleteConfirmModal';
 
 const ContactsApp = () => {
   const title = 'Contacts';
-  const description = 'User directory application that built with the help of List.js. Can be searched, paged and sorted.';
+  const description = 'User directory app that built with the help of List.js. Can be searched, paged and sorted.';
 
   const breadcrumbs = [
     { to: '', text: 'Home' },
@@ -96,7 +96,7 @@ const ContactsApp = () => {
       autoResetPage: false,
       autoResetSortBy: false,
       pageCount,
-      initialState: { pageSize: 8, pageIndex: 0, sortBy: [{ id: 'name', desc: false }], hiddenColumns: ['id'] },
+      initialState: { pageSize: 6, pageIndex: 0, sortBy: [{ id: 'name', desc: false }], hiddenColumns: ['id'] },
     },
     useGlobalFilter,
     useSortBy,

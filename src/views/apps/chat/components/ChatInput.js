@@ -42,6 +42,11 @@ const ChatInput = () => {
   const newTextOnChange = (event) => {
     setText(event.target.value);
   };
+  // Form.control
+
+  // Give textual form controls like <input>s and <textarea>s an upgrade
+  // with custom styles, sizing, focus states, and more.
+
   return (
     <Card>
       <Card.Body className="p-0 d-flex flex-row align-items-center px-3 py-3">

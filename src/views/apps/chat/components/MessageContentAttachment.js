@@ -43,3 +43,11 @@ const MessageContentAttachment = ({ attachments, time }) => {
   return <></>;
 };
 export default MessageContentAttachment;
+
+// React Image Lightbox Features
+
+// 1.Keyboard shortcuts (with rate limiting)
+// 2.Image Zoom
+// 3.Flexible rendering using src values assigned on the fly
+// 4.Image preloading for smoother viewing
+// 5.Mobile friendly, with pinch to zoom and swipe
