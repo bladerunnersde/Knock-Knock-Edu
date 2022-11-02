@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Todos:
+
+1. Socket.io WebRTC in the chat component
+2. Backend build-up to handle API routings with JWT and bcrypt
+3. Add a more components in the left sidebar, such as bug tracker, YouTube and Github Search bar etc.

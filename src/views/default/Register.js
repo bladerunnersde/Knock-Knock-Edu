@@ -92,7 +92,7 @@ const Register = () => {
                 <input type="checkbox" className="form-check-input" name="terms" onChange={handleChange} value={values.terms} />
                 <label className="form-check-label">
                   I have read and accept the{' '}
-                  <NavLink to="/dashboards/elearning" target="_blank">
+                  <NavLink to="/page-not-found" target="_blank">
                     terms and conditions.
                   </NavLink>
                 </label>
